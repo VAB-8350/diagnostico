@@ -1,0 +1,27 @@
+.img-carousel{
+    height: 200px;
+}
+@media (min-width:500px){
+    .img-carousel{
+        height: 500px;
+    }
+}
+.card{
+    background-color: rgba(29, 28, 28, 0.466);
+    color: aliceblue;
+}
+
+.card:hover{
+    border-color: rgb(255, 84, 204);
+    box-shadow: 10px 10px 30px rgb(195, 11, 219);
+}
+.card img{
+    min-height: 200px;
+    max-height: 200px;
+}
+.text_violeta{
+    color: #b586eb;
+}
+.bg_violeta{
+    background-color: #b586eb;
+}
